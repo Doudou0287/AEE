@@ -18,10 +18,30 @@
                     </div>
                 </li>
                 <li class="nav item">
-                <a href="#">
-                     <span class="glyphicon glyphicon-globe"></span>
+                <div class="dropdown">
+                     <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        <a href="#">
+                        <span class="glyphicon glyphicon-globe">
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <option value="English" >
+                             English 
+                        </option>
+                        <option value="Francais"> 
+                            Francais 
+                        </option>
+                        <option value="Allemand"> 
+                            Arabe 
+                        </option>
+                    </ul>
+                    </span>
                  </a>
+                 </div>
                 </li>
+
+
+
+               
 
             </ul>
         </div>
