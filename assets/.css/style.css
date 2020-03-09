@@ -2,14 +2,14 @@
 
 html,
 body {
-    height: 100%;
+    height: 800px;
     padding: 0px;
     margin: 0px;
     font-family: 'Lora', serif;
 }
 
 .page-wrapper {
-    min-height: 100%;
+    min-height: 450px;
     margin-top: 100px;
 }
 
@@ -146,6 +146,7 @@ body {
 
 /* langue*/
 
+
 /* langue*/
 
 .dropdown .btn {
@@ -184,11 +185,10 @@ body {
     border-bottom: 3px solid rgba(95, 36, 54, 0.541);
 }
 
-.dropdown .dropdown-menu ul li:hover{
+.dropdown .dropdown-menu ul li:hover {
     color: #804141;
     background: #a17a98;
 }
-
 
 .dropdown .dropdown-menu ul li a {
     color: #000000 !important;
@@ -196,6 +196,8 @@ body {
 
 
 /*end of langue*/
+
+
 /*end of langue*/
 
 
@@ -217,9 +219,8 @@ body {
     list-style: none;
 }
 
-.logotext:hover{
+.logotext:hover {
     color: #ffffff;
-
 }
 
 .logotext:active {
@@ -243,6 +244,26 @@ body {
 
 /* End Nav bar style  */
 
+#titlebine {
+    z-index: 100;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #360916;
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    #titlebine {
+        left: 69px;
+        font-size: 30px;
+        clear: both;
+    }
+}
+
 
 /*sidebar*/
 
@@ -258,6 +279,7 @@ body {
 }
 
 #sidebar {
+    position: fixed;
     top: 65px;
     width: 200px;
     height: 70%;
@@ -304,6 +326,7 @@ body {
     border-bottom: 2px solid rgba(161, 100, 126, 0.541);
     overflow-y: auto;
 }
+
 
 /*end of sidebar*/
 
@@ -446,10 +469,11 @@ body {
 
 
 /* btn top style  */
-.down{
+
+.down {
     margin-left: 160px;
-    
 }
+
 #btnScrollToTop {
     /*position: fixed;*/
     margin-left: 200px;
@@ -468,4 +492,29 @@ body {
 
 #btnScrollToTop:active {
     background: #9c23cc;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.parag {
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+
+.announce {
+    background-color: rgb(165, 148, 148);
+    width: 900px;
+    border: 15px solid rgba(128, 0, 117, 0.322);
+    padding: 50px;
+    margin: 20px;
+    margin-left: 400px;
+}
+
+
 }

@@ -18,7 +18,7 @@
         <li><a href="assets/.php/association.php"><span class="glyphicon glyphicon-education">&nbsp;</span>introduction de l’association.</a></li>
         <li><a href="assets/.php/evenement.php"><span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.</a></li>
         <li><a href="assets/.php/commerce.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span> e-commerce : vente.</a></li>
-        <li><a href="assets/.php/formulaire.php"><span class="glyphicon glyphicon-comment">&nbsp;</span>formulaire</a></li>
+        <li><a href="templates/formulaire.php"><span class="glyphicon glyphicon-comment">&nbsp;</span>formulaire</a></li>
         <!-- li class="side-bar"><a href="assets/.php/evenement.php"><span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.</a></li-->
     </ul>
 </div>

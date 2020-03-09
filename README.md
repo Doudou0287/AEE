@@ -11,7 +11,7 @@
 ##### Icône 
 > *une petite icône pour changer/choisir la langue voulu.
 		
-####Side-bar  < contiens les autre pages  > :
+#### Side-bar  < contiens les autre pages  > :
 	
 > barre de recherche << chercher des évènements/ventes ...>>
 > 2e page :  présentation de l’association.
