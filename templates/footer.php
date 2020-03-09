@@ -29,6 +29,7 @@
         </div>
 
         <div class="footer-section links">
+            <h4 class="down"> english | fraçais </h4>
             <button id="btnScrollToTop">
                 <i class="fa  fa-arrow-up arrow "></i>
             </button>
@@ -40,7 +41,7 @@
     </div>
 </div>
 
-<script src="/../assets/.js/sidebar.js"></script>
+<!--script src="/../assets/.js/sidebar.js"></script-->
 </footer> 
 </body>
 
