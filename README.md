@@ -1,37 +1,36 @@
 # Programmation Web 2 - L2S4 - 2020
+## Structure des pages 
+###1er page <  menu  > :
+####header. 
+#####icône
+> *logo.
 
-## Utilisation du projet
+#####barre de recherche 
+> *une barre qui affiche les recherches les plus populaires lorsque nous l'appuyons.
 
-* Faire un "fork" du projet dans votre Gitlab universitaire ;
-* Ajouter votre formateur TP aux "Developer" de votre projet (settings>Members>Project Members) ;
-* Faire un `clone` de votre projet dans :
-    * Si vous êtes sur votre machine :
-        * `/var/www/html/` si vous êtes sur Linux
-        * Dans votre répertoire WAMP (Windows) ou XAMP (Mac) dans le dossier `www`
-    * Si vous êtes sur une machine de la fac : `/var/www/html/<dossier à votre nom>/`
-* Faire un `chmod -R 777` sur le dossier copier (pour l'utilisation de la base de données).
-* Ne travailler que dans le dossier indiqué ci-dessus !
+#####icône 
+> *une petite icône pour changer/choisir la langue voulu.
+		
+####side-bar  < contiens les autre pages  > :
+	
+> barre de recherche << chercher des évènements/ventes ...>>
+> 2e page :  présentation de l’association.
+> 3e page : Le site de présentation d’un évènement : réservation.
+> 4e page : Le site de e-commerce : vente.
+> 5e  page : formulaire (déposer une annonce/événements.).
+	
 
-## Rappel des consignes pour les TP
+		une petite introduction du site
+		“  des image des anciens éventements ’’.
 
-* Il vous sera demandé d'utiliser les langages suivants :
-    * HTML pour la structure
-    * CSS pour le style
-    * Javascript en langage de front
-    * PHP en langage serveur
-    * N.B. : il est **obligatoire** d'utiliser **tous** les langages dans votre projet !
-* Pour la gestion de GIT :
-    * Faire **obligatoirement** un `commit` le jour du TP ;
-    * Faire un `commit` la veille du TP suivant (attention, les aléas de certains emploi du temps font que vous n'avez pas toujours une semaine complète entre deux TP !) ;
-    * Ne pas oublier de `push` le projet après chaque `commit` !
-    * N.B. : Pour ceux qui ont l'habitudes de faire des `commit` atomiques (plein de petits `commit`), mettre un moyen visuel pour nous, pour que nous puissions repérer chaque "`commit` de fin" = `commit` demandés ci-dessus. 
-* Le projet est **personnel**.
-* L'utilisation d'un CMS (Wordpress, Webflow, Joomla, Drupal...) est **interdite** !
-* L'utilisation d'un framework est tolérée (il doit obligatoirement être basé sur PHP). N.B. :
-    * Même si vous utilisez un framework, les consignes de notations seront identiques !
-    * La logique de développement sera du coup parfois très différente de ce qu'on fait habituellement avec un framework !
-    * L'utilisation de certaines librairies ou bundles sera parfois interdite, elle le sera également dans les frameworks !
-* Pour la gestion des données, utilisation obligatoire de `SQLite` avec comme fichier de base de données `database.db` 
+####footer : 
+> réseaux sociaux 
+> maps: pour localiser l´association.
+> un bouton de retour pour choisir la langue «qui monte. directement vers la liste de choix de la langue».
+
+
+
+
 
 ## Structure du projet
 
