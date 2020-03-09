@@ -1,17 +1,17 @@
 # Programmation Web 2 - L2S4 - 2020
 ## Structure des pages 
-###1er page <  menu  > :
-####header. 
-#####icône
+### Premiere page <  menu  > :
+#### Header. 
+##### Icône
 > *logo.
 
-#####barre de recherche 
+##### Barre de recherche 
 > *une barre qui affiche les recherches les plus populaires lorsque nous l'appuyons.
 
-#####icône 
+##### Icône 
 > *une petite icône pour changer/choisir la langue voulu.
 		
-####side-bar  < contiens les autre pages  > :
+####Side-bar  < contiens les autre pages  > :
 	
 > barre de recherche << chercher des évènements/ventes ...>>
 > 2e page :  présentation de l’association.
@@ -23,7 +23,7 @@
 		une petite introduction du site
 		“  des image des anciens éventements ’’.
 
-####footer : 
+#### Footer : 
 > réseaux sociaux 
 > maps: pour localiser l´association.
 > un bouton de retour pour choisir la langue «qui monte. directement vers la liste de choix de la langue».
