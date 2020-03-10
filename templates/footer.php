@@ -43,6 +43,7 @@
 
 <script src="/s.alkebsi/programmation-web-2---s4---2020/assets/.js/sidebar.js"></script>
 <script src="/s.alkebsi/programmation-web-2---s4---2020/assets/.js/btn.js"></script>
+<script src="/s.alkebsi/programmation-web-2---s4---2020/assets/.js/verif.js"></script>
 </footer> 
 </body>
 
