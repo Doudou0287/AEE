@@ -41,7 +41,8 @@
     </div>
 </div>
 
-<!--script src="/../assets/.js/sidebar.js"></script-->
+<script src="/s.alkebsi/programmation-web-2---s4---2020/assets/.js/sidebar.js"></script>
+<script src="/s.alkebsi/programmation-web-2---s4---2020/assets/.js/btn.js"></script>
 </footer> 
 </body>
 

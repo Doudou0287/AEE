@@ -1,0 +1,251 @@
+
+/* Nav bar style  */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #701b4d, #22001f);
+    padding: 0 !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #420338 !important;
+    font-weight: 600;
+    float: center;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/*search*/
+
+
+/*search*/
+
+
+/*
+.search-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, #972b6a, #42023d);
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+*/
+
+.search-box {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    background: rosybrown;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.search-box:hover>.search-txt {
+    width: 340px;
+    padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+    background: #a17a98;
+}
+
+.search-btn {
+    color: #e9d8d8;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #4e1a4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.fa-search {
+    color: rgb(172, 158, 163);
+}
+
+
+/*end of search*/
+
+
+/*end of search*/
+
+
+/* langue*/
+
+
+/* langue*/
+
+.dropdown .btn {
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: 410px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    */
+    margin-top: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    outline: none !important;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    box-shadow: 0 0 10px rgba(39, 32, 32, 0.25);
+}
+
+.dropdown .dropdown-menu ul li {
+    color: #000000 !important;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(110, 48, 67, 0.541);
+    border-bottom-left-radius: 30px 20px;
+    padding: 15px 10px;
+    border-bottom: 3px solid rgba(95, 36, 54, 0.541);
+}
+
+.dropdown .dropdown-menu ul li:hover {
+    color: #804141;
+    background: #a17a98;
+}
+
+.dropdown .dropdown-menu ul li a {
+    color: #000000 !important;
+}
+
+
+/*end of langue*/
+
+
+/*end of langue*/
+
+
+/*
+.navbar-nav a:hover {
+    border-top: 2px solid #44102c;
+    border-bottom: 2px solid #3d072d;
+    padding: 6px 0;  
+}
+
+*/
+
+.logotext {
+    color: #c3d0da;
+    font-family: Merriweather;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logotext:hover {
+    color: #ffffff;
+}
+
+.logotext:active {
+    color: #a33939;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* fa-bar for both header and sidebar*/
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.fa-bars {
+    color: rgb(201, 139, 163);
+    font-size: 30px !important;
+}
+
+
+/* End Nav bar style  */
+
+#titlebine {
+    z-index: 100;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #360916;
+    position: absolute;
+    top: 70px;
+    left: 550px;
+    text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    #titlebine {
+        left: 69px;
+        font-size: 30px;
+        clear: both;
+    }
+}
+

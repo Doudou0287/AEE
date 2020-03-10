@@ -32,19 +32,19 @@
 
                                 <ul>
                                     <li value="English" role="presentation">
-                                        <a role="menuitem" tabindex="-1" href="assets/.php/english.php">
+                                        <a role="menuitem" tabindex="-1" href="#">
                                             English 
                                         </a>
                                     </li>
 
                                     <li value="Francais" role="presentation">
-                                        <a role="menuitem" tabindex="-1" href="assets/.php/francais.php">
+                                        <a role="menuitem" tabindex="-1" href="#">
                                             Francais 
                                         </a>
                                     </li>
 
                                     <li value="arabe" role="presentation">
-                                        <a role="menuitem" tabindex="-1" href="assets/.php/arabe.php">
+                                        <a role="menuitem" tabindex="-1" href="#">
                                             Arabe 
                                         </a>
                                     </li>
@@ -61,3 +61,4 @@
 
     </div>
         
+</header>

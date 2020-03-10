@@ -15,18 +15,10 @@
         </div>
     </div>
     <ul>
-        <li><a href="assets/.php/association.php"><span class="glyphicon glyphicon-education">&nbsp;</span>introduction de l’association.</a></li>
-        <li><a href="assets/.php/evenement.php"><span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.</a></li>
-        <li><a href="assets/.php/commerce.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span> e-commerce : vente.</a></li>
-        <li><a href="templates/formulaire.php"><span class="glyphicon glyphicon-comment">&nbsp;</span>formulaire</a></li>
+        <li><a href="/s.alkebsi/programmation-web-2---s4---2020/assets/.php/association.php"><span class="glyphicon glyphicon-education">&nbsp;</span>introduction de l’association.</a></li>
+        <li><a href="/s.alkebsi/programmation-web-2---s4---2020/assets/.php/evenement.php"><span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.</a></li>
+        <li><a href="/s.alkebsi/programmation-web-2---s4---2020/assets/.php/commerce.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span> e-commerce : vente.</a></li>
+        <li><a href="/s.alkebsi/programmation-web-2---s4---2020/templates/formulaire.php"><span class="glyphicon glyphicon-comment">&nbsp;</span>formulaire</a></li>
         <!-- li class="side-bar"><a href="assets/.php/evenement.php"><span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.</a></li-->
     </ul>
 </div>
-
-
-<script>
-    function toggleSidebar() {
-    document.getElementById("sidebar").classList.toggle('active');
-    }
-
-</script>

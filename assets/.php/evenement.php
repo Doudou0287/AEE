@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="../.css/style.css"> <!--linking  style --->
 <?php
-include '../../templates/head.php';
-include '../../templates/header.php';
-include '../../templates/sidebar.php';
+include '/s.alkebsi/programmation-web-2---s4---2020//templates/head.php';
+include '/s.alkebsi/programmation-web-2---s4---2020//templates/header.php';
+include '/s.alkebsi/programmation-web-2---s4---2020//templates/sidebar.php';
 ?>
 <div class="announce">
 <ul>
@@ -30,9 +30,9 @@ include '../../templates/sidebar.php';
 </ul>
 </div>
 <?php
-include '../../templates/formulaire.php';
+include '/s.alkebsi/programmation-web-2---s4---2020/templates/formulaire.php';
 //include '../../templates/head.php';
-include '../../templates/footer.php';
+include '/s.alkebsi/programmation-web-2---s4---2020/templates/footer.php';
 ?>
 
 

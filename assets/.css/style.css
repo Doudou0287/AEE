@@ -295,6 +295,7 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    z-index: 7;
 }
 
 #sidebar .toggle-btn {
@@ -327,7 +328,13 @@ body {
     overflow-y: auto;
 }
 
+#sidebar ul li a{
+    color: #fff
+}
 
+#sidebar ul li a span{
+    color: rgb(96, 177, 214)
+}
 /*end of sidebar*/
 
 
@@ -517,4 +524,3 @@ body {
 }
 
 
-}
