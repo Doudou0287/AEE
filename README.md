@@ -1,4 +1,7 @@
 # Programmation Web 2 - L2S4 - 2020
+
+## notes:
+> quand j'ai fait include des fichiers css, js et php dans mes autres fichiers j'ai met le chemin absolue de repertoire celui de la fac , du coup je suis pas sur si ça va fonctionner   
 ## Structure des pages 
 ### Premiere page <  menu  > :
 #### Header. 
