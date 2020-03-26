@@ -1,14 +1,11 @@
 
 
 
-<link rel="stylesheet" href="../.css/style.css"> <!--linking  style --->
-
-
 <?php
-
 include '../../templates/head.php';
 include '../../templates/header.php';
 ?>
+
 
 
 
@@ -25,10 +22,6 @@ qui aide les étudiants étrangers à s'adapter à leur situation. Aidez-les à 
          </div>
      </div>
         
-
-
-
-
 
 
 

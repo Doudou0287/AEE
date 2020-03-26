@@ -328,13 +328,15 @@ body {
     overflow-y: auto;
 }
 
-#sidebar ul li a{
+#sidebar ul li a {
     color: #fff
 }
 
-#sidebar ul li a span{
+#sidebar ul li a span {
     color: rgb(96, 177, 214)
 }
+
+
 /*end of sidebar*/
 
 
@@ -522,7 +524,6 @@ body {
     margin: 20px;
     margin-left: 400px;
 }
-
 
 form div input.invalid,
 form div textarea.invalid {

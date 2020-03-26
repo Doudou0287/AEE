@@ -1,5 +1,4 @@
 
-<link rel="stylesheet" href="../.css/style.css"> <!--linking  style --->
 <?php
 include '../../templates/head.php';
 include '../../templates/header.php';
@@ -44,9 +43,6 @@ include '../../templates/sidebar.php';
 
 
 
-
 <?php
-include '../../templates/formulaire.php';
-
 include '../../templates/footer.php';
 ?>

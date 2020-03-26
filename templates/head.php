@@ -9,7 +9,7 @@
     <meta name="author" content="Sundus">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-    <link rel="stylesheet" href="/s.alkebsi/programmation-web-2---s4---2020/assets/.css/style.css">
+    <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/style.css">
 
     
      <!--linking  style --->

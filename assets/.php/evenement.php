@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="../.css/style.css"> <!--linking  style --->
+
 <?php
-include '/s.alkebsi/programmation-web-2---s4---2020//templates/head.php';
-include '/s.alkebsi/programmation-web-2---s4---2020//templates/header.php';
-include '/s.alkebsi/programmation-web-2---s4---2020//templates/sidebar.php';
+include '../../templates/head.php';
+include '../../templates/header.php';
+include '../../templates/sidebar.php';
 ?>
 <div class="announce">
 <ul>
@@ -29,14 +29,7 @@ include '/s.alkebsi/programmation-web-2---s4---2020//templates/sidebar.php';
     <a href="https://facebook.com/events/s/la-semaine-de-lemploi-ostwald-/512391319713513/ ">savoir plus</a>
 </ul>
 </div>
+
 <?php
-include '/s.alkebsi/programmation-web-2---s4---2020/templates/formulaire.php';
-//include '../../templates/head.php';
-include '/s.alkebsi/programmation-web-2---s4---2020/templates/footer.php';
+include '../../templates/footer.php';
 ?>
-
-
-
-
-
-

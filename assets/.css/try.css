@@ -1,0 +1,5 @@
+form div input.invalid,
+form div textarea.invalid {
+    border: 2px solid #a61616;
+    background-color: rgba(255, 0, 0, 0.1);
+}
