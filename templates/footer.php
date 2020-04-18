@@ -44,6 +44,7 @@
 <script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/sidebar.js"></script>
 <script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/btn.js"></script>
 <script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/verif.js"></script>
+<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/events.js"></script>
 </footer> 
 </body>
 
