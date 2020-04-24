@@ -1,4 +1,4 @@
-nclude('server.php');
+<?php include('server.php');
 
   if (empty($_SESSION['username'])) {
     echo 'Inscrivez-vous pour continuer';
