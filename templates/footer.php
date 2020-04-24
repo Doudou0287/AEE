@@ -1,53 +1,73 @@
+<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/footer.css">
+
+
 <footer>
 
-<!--
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-bars"></i> 
-</button> -->
-<div class="wave-container2">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF" fill-opacity="1" d="M0,192L30,213.3C60,235,120,277,180,288C240,299,300,277,360,240C420,203,480,149,540,122.7C600,96,660,96,720,117.3C780,139,840,181,900,208C960,235,1020,245,1080,224C1140,203,1200,149,1260,133.3C1320,117,1380,139,1410,149.3L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
-</div>
+    
+    <div class="wave-container2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF" fill-opacity="1" d="M0,192L30,213.3C60,235,120,277,180,288C240,299,300,277,360,240C420,203,480,149,540,122.7C600,96,660,96,720,117.3C780,139,840,181,900,208C960,235,1020,245,1080,224C1140,203,1200,149,1260,133.3C1320,117,1380,139,1410,149.3L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+    </div>
 
-<div class="footer">
-    <div class="footer-content" id="navbarNav">
-        <div class="footer-section about">
-            <h3 class="logo-text"><span>A</span>ssociation <span>É</span>tudiants <span>É</span>trangers</p>
-            <div class="contact">
-                <span><i class="fa fa-phone"></i> &nbsp; 111-111-111</span>
-                <span><i class="fa fa-envelope"> &nbsp; name@gmail.com</i></span>
+    <div class="footer">
+        <div class="footer-content" id="navbarNav">
+            <div class="footer-section about">
+                <h2><span>A</span>ssociation <span>É</span>tudiants <span>É</span>trangers</h2>
+                    <div class="contact">
+                        <span><i class="fa fa-phone"></i> &nbsp; 111-111-111</span>
+                        <span><i class="fa fa-envelope"></i> &nbsp; name@gmail.com</span>
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://accounts.snapchat.com/"><i class="fa fa-snapchat"></i></a>
+                    </div>
             </div>
-            <div class="socials">
-                <a href="#"><i class="fa fa-facebook-f"></i></a> 
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-snapchat"></i></a>
+
+            <div class="footer-section contact-form">
+                <h2>Contactez Nous</h2>
+                <br>
+                <form id="contacter" action="http://localhost/programmation-web-2---s4---2020-master/assets/.php/server.php" method="post">
+                    
+                    <input type="text" class="text-input contact-input" name="email" id="email" placeholder="Email..." >
+                    
+                    <textarea type="textarea" class="text-input contact-input" name="textarea" id="msg" placeholder="Tapez Votre Message Ici ..." ></textarea>
+                    
+                    <button type="submit" id="envoyer" class="btn2 btn-big" name="envoyer">
+                        <i class="fa  fa-envelope "></i>
+                        Envoyer
+                    </button>
+                    
+                </form>
+            </div>
+
+            <div class="footer-section links">
+                <p id="erreur"></p>
+                <h3 class="down"> Retour a la page d'accueil </h3>
+                <a href="http://localhost/programmation-web-2---s4---2020-master/">
+                    <button id="btnScrollToTop">
+                        <i class="fa  fa-arrow-right arrow "></i>
+                    </button>
+                </a>
+                
+
             </div>
         </div>
 
-        <div class="footer-section maps">
-            <h2>Maps</h2>
-        </div>
-
-        <div class="footer-section links">
-            <h4 class="down"> english | fraçais </h4>
-            <button id="btnScrollToTop">
-                <i class="fa  fa-arrow-up arrow "></i>
-            </button>
+        <div class="footer-bottom">
+            événements et commerciales pour les étudiants étrangers
         </div>
     </div>
 
-    <div class="footer-bottom">
-        événements et commerciales pour les étudiants étrangers 
-    </div>
-</div>
 
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/sidebar.js"></script>
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/btn.js"></script>
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/verif.js"></script>
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/events.js"></script>
+
+
+<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/js.js"></script>
+
 </footer> 
 </body>
 
 
 
 </html>
+
