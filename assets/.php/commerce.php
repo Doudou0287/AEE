@@ -1,48 +1,52 @@
 
 <?php
-include '../../templates/head.php';
+
+$con = new PDO('mysql:host=localhost;dbname=aee','root','');
+
+$pdoStat = $con->prepare('SELECT * FROM announce ORDER BY DATE_MESSAGE DESC');
+
+$execute = $pdoStat->execute();
+
+$commerces = $pdoStat->fetchAll();
+
 include '../../templates/header.php';
 include '../../templates/sidebar.php';
 ?>
-<div class="announce">
-<ul>
+<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/form.css">
 
-    <li>
-        Sephora vous ouvre les portes de son univers magnifique, rempli d’idées cadeaux et d'incontournables produits beauté. Partez à la recherche des dernières nouveautés et retrouvez vos best-sellers maquillage : fond de teint, rouge à lèvres, mascara, tout pour être au top. On peaufine notre look avec une touche de fragrance. Eau de parfum ou eau de toilette, on shoppe notre parfum femme préféré et on chouchoute Monsieur avec son parfum homme si unique. Après une longue journée, on s’octroie une pause détente bien méritée. A nous les soins visage, corps ou cheveux ! Une routine beauté parfaite avec des marques expertes et leurs soins novateurs : Clarins, Fresh ou GlamGlow pour un teint frais. On s’offre une chevelure de rêve avec des soins réparateurs, parfaitement adaptés à tous nos besoins, du mythique Christophe Robin à l'incontournable Bumble & Bumble. A la recherche du cadeau parfait ? On s’inspire du Beauty Board et de sa communauté pour trouver la perle rare qui fera plaisir à coup sûr. Avec Sephora, vous êtes au cœur de la beauté
-        .
-     </li>
+<section>
+	<h3 class="try">LISTE DES ANNOUNCES DES COMMERCES</h3>
+    <table>
+        
+        <thead>
+            <tr>
+                <th scope="col"><span>DATE</span></th>
+                <th scope="col"><span >NOM</span></th>
+                <th scope="col"><span >PRENOM</span></th>
+                <th scope="col"><span >SUJET</span></th>
+                <th scope="col"><span >ANNOUNCE</span></th>
+                <th scope="col"><span >LINKS</span></th>
 
+            </tr>
+        </thead>
+        <?php foreach ($commerces as $announce): ?>
+	    <tbody>
 
-     <a href="https://www.sephora.fr/?utm_source=google&utm_medium=cpc&utm_campaign=BrandSephora_search_SephoraMarqueexacte&utm_term=sephora&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0vRfRf4e7rHKASZB1RcRKgFopruIeffd8HQlu4lgZse6ABZxgKW8ssaAlWLEALw_wcB
- ">savoir plus</a>
-    <li>
-        Sephora vous ouvre les portes de son univers magnifique, rempli d’idées cadeaux et d'incontournables produits beauté. Partez à la recherche des dernières nouveautés et retrouvez vos best-sellers maquillage : fond de teint, rouge à lèvres, mascara, tout pour être au top. On peaufine notre look avec une touche de fragrance. Eau de parfum ou eau de toilette, on shoppe notre parfum femme préféré et on chouchoute Monsieur avec son parfum homme si unique. Après une longue journée, on s’octroie une pause détente bien méritée. A nous les soins visage, corps ou cheveux ! Une routine beauté parfaite avec des marques expertes et leurs soins novateurs : Clarins, Fresh ou GlamGlow pour un teint frais. On s’offre une chevelure de rêve avec des soins réparateurs, parfaitement adaptés à tous nos besoins, du mythique Christophe Robin à l'incontournable Bumble & Bumble. A la recherche du cadeau parfait ? On s’inspire du Beauty Board et de sa communauté pour trouver la perle rare qui fera plaisir à coup sûr. Avec Sephora, vous êtes au cœur de la beauté
-        .
-     </li>
+            <tr>
+                <th  scope="row"><?= $announce['DATE_MESSAGE']?></th>
+                <td><?= $announce['NOM']?></td>
+                <td><?= $announce['PRENOM']?></td>
+                <td><?= $announce['SUJET']?></td>
+                <td><?= $announce['MESSAGE']?></td>
+                <td class="text"><a href="<?= $announce['LINKS']?>">Savoir plus</a></td>
+            </tr>
 
-     <a href="https://www.sephora.fr/?utm_source=google&utm_medium=cpc&utm_campaign=BrandSephora_search_SephoraMarqueexacte&utm_term=sephora&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0vRfRf4e7rHKASZB1RcRKgFopruIeffd8HQlu4lgZse6ABZxgKW8ssaAlWLEALw_wcB
- ">savoir plus</a>
-    <li>
-        Sephora vous ouvre les portes de son univers magnifique, rempli d’idées cadeaux et d'incontournables produits beauté. Partez à la recherche des dernières nouveautés et retrouvez vos best-sellers maquillage : fond de teint, rouge à lèvres, mascara, tout pour être au top. On peaufine notre look avec une touche de fragrance. Eau de parfum ou eau de toilette, on shoppe notre parfum femme préféré et on chouchoute Monsieur avec son parfum homme si unique. Après une longue journée, on s’octroie une pause détente bien méritée. A nous les soins visage, corps ou cheveux ! Une routine beauté parfaite avec des marques expertes et leurs soins novateurs : Clarins, Fresh ou GlamGlow pour un teint frais. On s’offre une chevelure de rêve avec des soins réparateurs, parfaitement adaptés à tous nos besoins, du mythique Christophe Robin à l'incontournable Bumble & Bumble. A la recherche du cadeau parfait ? On s’inspire du Beauty Board et de sa communauté pour trouver la perle rare qui fera plaisir à coup sûr. Avec Sephora, vous êtes au cœur de la beauté
-        .
-     </li>
+        </tbody>
+        <?php endforeach; ?>
+    </table>	
 
-
-     <a href="https://www.sephora.fr/?utm_source=google&utm_medium=cpc&utm_campaign=BrandSephora_search_SephoraMarqueexacte&utm_term=sephora&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0vRfRf4e7rHKASZB1RcRKgFopruIeffd8HQlu4lgZse6ABZxgKW8ssaAlWLEALw_wcB
- ">savoir plus</a>
-    <li>
-        Sephora vous ouvre les portes de son univers magnifique, rempli d’idées cadeaux et d'incontournables produits beauté. Partez à la recherche des dernières nouveautés et retrouvez vos best-sellers maquillage : fond de teint, rouge à lèvres, mascara, tout pour être au top. On peaufine notre look avec une touche de fragrance. Eau de parfum ou eau de toilette, on shoppe notre parfum femme préféré et on chouchoute Monsieur avec son parfum homme si unique. Après une longue journée, on s’octroie une pause détente bien méritée. A nous les soins visage, corps ou cheveux ! Une routine beauté parfaite avec des marques expertes et leurs soins novateurs : Clarins, Fresh ou GlamGlow pour un teint frais. On s’offre une chevelure de rêve avec des soins réparateurs, parfaitement adaptés à tous nos besoins, du mythique Christophe Robin à l'incontournable Bumble & Bumble. A la recherche du cadeau parfait ? On s’inspire du Beauty Board et de sa communauté pour trouver la perle rare qui fera plaisir à coup sûr. Avec Sephora, vous êtes au cœur de la beauté
-        .
-     </li>
-     <a href="https://www.sephora.fr/?utm_source=google&utm_medium=cpc&utm_campaign=BrandSephora_search_SephoraMarqueexacte&utm_term=sephora&gclid=Cj0KCQjw0pfzBRCOARIsANi0g0vRfRf4e7rHKASZB1RcRKgFopruIeffd8HQlu4lgZse6ABZxgKW8ssaAlWLEALw_wcB
- ">savoir plus</a>
-    
-</ul>
-</div>
-
+</section>
 
 
 
-<?php
-include '../../templates/footer.php';
-?>
+
