@@ -28,7 +28,7 @@ if (isset($_POST['envoyer'])){
 
 		    if (count($errors) == 0){
 			        
-			            $sql1 = "INSERT INTO contact_us (email, message, date_message) 
+			            $sql1 = "INSERT INTO contact (email, message, dateMessage) 
 					            VALUES ('$email', '$msg', '$DATE_MESSAGE')";
 
     }
