@@ -1,4 +1,4 @@
-<?php include('sever.php');
+<?php include('server.php');
 include '../../templates/header.php';
     include '../../templates/sidebar.php';
 ?>
