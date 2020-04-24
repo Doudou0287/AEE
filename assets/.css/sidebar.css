@@ -1,0 +1,102 @@
+#sidebar {
+	    position: absolute;
+	        top: 95px;
+		    width: 230px;
+		        height: auto;
+			    background-image: linear-gradient(to right, #b945459f, #4d03369c);
+			        left: -230px;
+				    transition: all 500ms ease-in-out;
+				        -webkit-transition: all 500ms ease-in-out;
+					    -moz-transition: all 500ms ease-in-out;
+					        -ms-transition: all 500ms ease-in-out;
+						    -o-transition: all 500ms ease-in-out;
+						        border-radius: 10px;
+							    -webkit-border-radius: 10px;
+							        -moz-border-radius: 10px;
+								    -ms-border-radius: 10px;
+								        -o-border-radius: 10px;
+									    z-index: 1;
+								    }
+
+								    #sidebar .toggle-btn {
+									        position: absolute;
+										    left: 230px;
+										        top: 20px;
+										}
+
+										#sidebar.active {
+											    left: 0px;
+										    }
+
+										    #sidebar .toggle-btn span {
+											        display: block;
+												    width: 30px;
+												        height: 5px;
+													    background: #d3b7c8;
+													        margin: 5px 2px;
+														    border-radius: 10px;
+														        -webkit-border-radius: 10px;
+															    -moz-border-radius: 10px;
+															        -ms-border-radius: 10px;
+																    -o-border-radius: 10px;
+															    }
+
+															    #sidebar ul li {
+																        display: block;
+																	    margin: 0px;
+																	        padding: 0px;
+																		    height: auto;
+																		        font-family: sans-serif;
+																			    color: rgba(110, 48, 67, 0.541);
+																			        list-style: none;
+																				    border-bottom-left-radius: 30px 20px;
+																				        padding: 15px 10px;
+																					    border-bottom: 2px solid rgba(161, 100, 126, 0.541);
+																					        overflow-y: auto;
+																						    transition: all .5s;
+																						        -webkit-transition: all .5s;
+																							    -moz-transition: all .5s;
+																							        -ms-transition: all .5s;
+																								    -o-transition: all .5s;
+																							    }
+
+																							    #sidebar ul li button {
+																								        background: rgba(83, 13, 81, 0);
+																									    border: none;
+																									        padding: 10px 10px;
+																										    color: rgb(226, 179, 179);
+																										        outline: none !important;
+																										}
+
+																										#sidebar ul li {
+																											    margin-right: 10px;
+																											        transition: all .5s;
+																												    -webkit-transition: all .5s;
+																												        -moz-transition: all .5s;
+																													    -ms-transition: all .5s;
+																													        -o-transition: all .5s;
+																													}
+
+																													#sidebar ul li button span {
+																														    color: rgb(187, 141, 201)
+																													    }
+
+																													    @media only screen and (max-width:990px) {
+																														        #sidebar {
+																																        top: 310px;
+																																	    }
+																																	        #sidebar .toggle-btn {
+																																			        top: 20px;
+																																				    }
+																																			    }
+
+																																			    @media only screen and (max-width:770px) {
+																																				        #sidebar {
+																																						        top: 50px;
+																																							    }
+																																							        #sidebar .toggle-btn {
+																																									        top: 60px;
+																																										    }
+																																									    }
+
+

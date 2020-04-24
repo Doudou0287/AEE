@@ -1,0 +1,212 @@
+#nav-bar {
+	    position: sticky;
+	        top: 0;
+		    z-index: 10;
+	    }
+
+	    .navbar {
+		        background-image: linear-gradient(to right, #701b4d, #22001f);
+			    padding: 0 !important;
+			        height: auto;
+			}
+
+			.navbar-nav li {
+				    padding: 0 50px;
+			    }
+
+			    .navbar-nav li a {
+				        color: #420338 !important;
+					    font-weight: 600;
+					        float: center;
+						    text-align: left;
+						        list-style: none;
+							    text-decoration: none;
+						    }
+
+						    .search-box {
+							        position: relative;
+								    margin-left: 90px;
+								        margin-top: 0px;
+									    transform: translate(-50%, 50%);
+									        -webkit-transform: translate(-50%, 50%);
+										    -moz-transform: translate(-50%, 50%);
+										        -ms-transform: translate(-50%, 50%);
+											    -o-transform: translate(-50%, 50%);
+											        background: rosybrown;
+												    height: 50px;
+												        border-radius: 40px;
+													    -webkit-border-radius: 40px;
+													        -moz-border-radius: 40px;
+														    -ms-border-radius: 40px;
+														        -o-border-radius: 40px;
+														}
+
+														.search-box:hover>.search-txt {
+															    width: 300px;
+															        padding: 0 20px;
+															}
+
+															.search-box:hover>.search-btn {
+																    background: #6d0e3d8c;
+															    }
+
+															    .search-btn {
+																        color: #e9d8d8;
+																	    float: right;
+																	        width: 50px;
+																		    height: 50px;
+																		        border-radius: 50%;
+																			    -webkit-border-radius: 50%;
+																			        -moz-border-radius: 50%;
+																				    -ms-border-radius: 50%;
+																				        -o-border-radius: 50%;
+																					    background: #420338;
+																					        display: flex;
+																						    justify-content: center;
+																						        align-items: center;
+																							    transition: 0.4s;
+																							        -webkit-transition: 0.4s;
+																								    -moz-transition: 0.4s;
+																								        -ms-transition: 0.4s;
+																									    -o-transition: 0.4s;
+																								    }
+
+																								    .search-txt {
+																									        border: none;
+																										    background: none;
+																										        outline: none;
+																											    padding: 0;
+																											        color: white;
+																												    font-size: 16px;
+																												        transition: 0.4s;
+																													    line-height: 40px;
+																													        width: 0px;
+																														    -webkit-transition: 0.4s;
+																														        -moz-transition: 0.4s;
+																															    -ms-transition: 0.4s;
+																															        -o-transition: 0.4s;
+																															}
+
+																															.fa-search {
+																																    color: rgb(235, 166, 190);
+																															    }
+
+																															    .dropdown .btn {
+																																        margin-top: 50%;
+																																	    width: 50px;
+																																	        height: 50px;
+																																		    position: relative;
+																																		        border-radius: 10%;
+																																			    outline: none !important;
+																																			        -webkit-border-radius: 10%;
+																																				    -moz-border-radius: 10%;
+																																				        -ms-border-radius: 10%;
+																																					    -o-border-radius: 10%;
+																																					        box-shadow: 0 0 10px rgb(231, 35, 143);
+																																					}
+
+																																					.dropdown .dropdown-menu ul li {
+																																						    font-weight: 600;
+																																						        float: right;
+																																							    text-align: left;
+																																							        list-style: none;
+																																								    text-decoration: none;
+																																								        color: rgba(110, 48, 67, 0.541);
+																																									    border-bottom-left-radius: 30px 20px;
+																																									        padding: 15px 55px 15px 15px;
+																																										    border-bottom: 3px solid rgba(95, 36, 54, 0.541);
+																																									    }
+
+																																									    .dropdown .dropdown-menu ul li:hover {
+																																										        color: #804141;
+																																											    background: #a17a98;
+																																										    }
+
+																																										    .logotext {
+																																											        color: rgb(224, 186, 186);
+																																												    font-family: Merriweather;
+																																												        font-weight: 600;
+																																													    cursor: pointer;
+																																													        text-decoration: none;
+																																														    list-style: none;
+																																													    }
+
+																																													    .logotext:hover {
+																																														        color: #ffffff;
+																																														}
+
+																																														.logotext:active {
+																																															    color: #8a1f48e7;
+																																															        text-decoration: none;
+																																																    list-style: none;
+																																															    }
+
+																																															    .navbar-toggler {
+																																																        outline: none !important;
+																																																}
+
+																																																.fa-bars {
+																																																	    color: rgb(201, 139, 163);
+																																																	        font-size: 30px !important;
+																																																	}
+
+																																																	#titlebine {
+																																																		    font-weight: 600;
+																																																		        font-size: 30px;
+																																																			    color: #7c3a60;
+																																																			        position: relative;
+																																																				    top: 10px;
+																																																				        left: 0px;
+																																																					    text-align: left;
+																																																				    }
+
+																																																				    @media only screen and (max-width:1350px) {
+																																																					        #titlebine {
+																																																							        font-size: 23px;
+																																																								    }
+																																																								        .search-box:hover>.search-txt {
+																																																										        width: 120px;
+																																																											    }
+																																																											        .search-box {
+																																																													        margin-left: 10px;
+																																																														    }
+																																																													    }
+
+																																																													    @media only screen and (max-width:930px) {
+																																																														        .navbar {
+																																																																        height: auto;
+																																																																	    }
+																																																																	        .search-box {
+																																																																			        margin-left: 200px;
+																																																																				    }
+																																																																				        .dropdown,
+																																																																					    .logotext {
+																																																																						            margin-left: 165px;
+																																																																							            right: 0%;
+																																																																								        }
+																																																																									    .search-box:hover>.search-txt {
+																																																																										            width: 170px;
+																																																																											        }
+																																																																												    #titlebine {
+																																																																													            left: 110px;
+																																																																														        }
+																																																																															    .dropdown .dropdown-menu ul li {
+																																																																																            background-color: rgba(148, 79, 122, 0.726);
+																																																																																	        }
+																																																																																	}
+
+																																																																																	@media only screen and (max-width:600px) {
+																																																																																		    .search-box:hover>.search-txt {
+																																																																																			            width: 170px;
+																																																																																				        }
+																																																																																					    .search-box {
+																																																																																						            margin-left: 120px;
+																																																																																							        }
+																																																																																								    .dropdown,
+																																																																																								        .logotext {
+																																																																																										        margin-left: 100px;
+																																																																																											    }
+																																																																																											        #titlebine {
+																																																																																													        left: 10px;
+																																																																																														    }
+																																																																																													    }
