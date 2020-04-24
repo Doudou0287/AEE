@@ -1,4 +1,5 @@
-nclude '../../templates/header.php';
+<?php include('sever.php');
+include '../../templates/header.php';
     include '../../templates/sidebar.php';
 ?>
 
