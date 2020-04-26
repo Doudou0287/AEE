@@ -1,4 +1,6 @@
-('mysql:host=localhost;dbname=aee','root','');
+<?php 
+
+	$con = new PDO('mysql:host=localhost;dbname=aee','root','');
 
 	$pdoStat = $con->prepare('INSERT INTO announce1 VALUE (NULL, :nom, :prenom, :sujet, :msg, :date_msg, :links)');
 	

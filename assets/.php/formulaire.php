@@ -7,8 +7,8 @@
 
 
 include '../../templates/sidebar.php';
+ include '../../templates/lang.php'?>
 
-?>
 
 <!DOCTYPE html>
 <html>
@@ -38,7 +38,7 @@ include '../../templates/sidebar.php';
                 <?php endif ?>
                 <?php if(isset($_SESSION["username"])): ?>
                 <center>
-                <p>Bien venu <strong><?php echo $_SESSION['username']; ?></strong></p>
+                <p><?php echo $lang['bv'] ?><strong><?php echo $_SESSION['username']; ?></strong></p>
                 
                 </center>
                 <?php endif ?>
@@ -47,10 +47,11 @@ include '../../templates/sidebar.php';
           </h4>
       </div>
       <div id="collapse1" class="panel-collapse collapse in">
-        <div class="panel-body">Vous êtes maintenant considéré comme un membre de cette société,
-et nous sommes ravis que vous nous ayez rejoints <br> 
-en tant que membre de cette association, vous pouvez maintenant publier des announces sur les événements et commerces qui vous intéressent ou peut-être des événements que vous créez et souhaitez que des gens vous rejoignent <br>
- <p><a href="formulaire.php?logout='1'" style="color:#a61fff; background: rgba(34, 3, 18, 0.37); float:right;">Logout</a></p></div>
+        <div class="panel-body"><?php echo $lang['mm'] ?> <br>
+          <p>
+            <a href="formulaire.php?logout='1'" style="color:#a61fff; background: rgba(34, 3, 18, 0.37); float:right;">Logout</a>
+          </p>
+        </div>
       </div>
     </div>
   
@@ -58,7 +59,7 @@ en tant que membre de cette association, vous pouvez maintenant publier des anno
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h2 >deposer une announce d'evenement ici</h2></a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><h2 ><?php echo $lang['l2'] ?></h2></a>
         </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
@@ -66,30 +67,30 @@ en tant que membre de cette association, vous pouvez maintenant publier des anno
           <form action="traitement-evenement.php" method="post" id="deposer">
                   
             <div class="form-group">
-                    <label for="NOM">Nom<font color = "red">*</font></label>
-                      <input type="text" class="form-control" name="NOM" id="NOM" placeholder="NOM" required>
+                    <label for="NOM"><?php echo $lang['t2'] ?><font color = "red">*</font></label>
+                      <input type="text" class="form-control" name="NOM" id="NOM" placeholder="<?php echo $lang['t2'] ?>" required>
                   </div>
                   <div class="form-group">
-                    <label for="PRENOM">Prénom<font color = "red">*</font></label>
-                    <input type="text" class="form-control" name="PRENOM" id="PRENOM" placeholder="PRENOM" required>
+                    <label for="PRENOM"><?php echo $lang['t3'] ?><font color = "red">*</font></label>
+                    <input type="text" class="form-control" name="PRENOM" id="PRENOM" placeholder="<?php echo $lang['t3'] ?>" required>
                   </div>
                                  
                   <div class="form-group">
-                    <label for="SUJET">Sujet</label>
+                    <label for="SUJET"><?php echo $lang['t4'] ?></label>
                     <input type="text" class="form-control" name="SUJET" id="SUJET" placeholder="question, réservation, remarque">
                   </div>
                       
                   <div class="form-group">
-                    <label for="textarea">Message<font color = "red">*</font></label>
-                    <textarea rows="10" type="textarea" class="form-control" name="MESSAGE" id="MESSAGE" placeholder="Tapez votre message" required></textarea>
+                    <label for="textarea"><?php echo $lang['t5'] ?><font color = "red">*</font></label>
+                    <textarea rows="10" type="textarea" class="form-control" name="MESSAGE" id="MESSAGE" placeholder="<?php echo $lang['r'] ?>" required></textarea>
                   </div>
                   <div class="form-group">
-                    <label for="Links">Link?</label>
+                    <label for="Links"><?php echo $lang['t6'] ?>?</label>
                     <input type="text" class="form-control" name="Links" id="Links" placeholder="Veuillez mettre votre lien ici...">
                   </div>
               
                   <div class="form-group">
-                    <button type="submit" id="deposer" class="btn btn-primary">Deposer</button>
+                    <button type="submit" id="deposer" class="btn btn-primary"><?php echo $lang['s'] ?></button>
                     <p style="color : #a61616; font-size: 30px; " id="erreur"></p>
                   </div>
                               
@@ -100,38 +101,38 @@ en tant que membre de cette association, vous pouvez maintenant publier des anno
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><h2 >deposer une announce de commerce ici</h2></a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><h2 ><?php echo $lang['l1'] ?></h2></a>
         </h4>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
         <div class="panel-body">
           <form action="traitement-commerce.php" method="post" id="deposer">
             <div class="form-group">
-              <label for="NOM">Nom<font color = "red">*</font></label>
-              <input type="text" class="form-control" name="NOM" id="NOM" placeholder="NOM" required>
+              <label for="NOM"><?php echo $lang['t2'] ?><font color = "red">*</font></label>
+              <input type="text" class="form-control" name="NOM" id="NOM" placeholder="<?php echo $lang['t2'] ?>" required>
             </div>
             <div class="form-group">
-              <label for="PRENOM">Prénom<font color = "red">*</font></label>
-              <input type="text" class="form-control" name="PRENOM" id="PRENOM" placeholder="PRENOM" required>
+              <label for="PRENOM"><?php echo $lang['t3'] ?><font color = "red">*</font></label>
+              <input type="text" class="form-control" name="PRENOM" id="PRENOM" placeholder="<?php echo $lang['t3'] ?>" required>
             </div>
                
             <div class="form-group">
-              <label for="SUJET">Sujet</label>
+              <label for="SUJET"><?php echo $lang['t4'] ?></label>
               <input type="text" class="form-control" name="SUJET" id="SUJET" placeholder="question, réservation, remarque">
             </div>
 
             <div class="form-group">
-              <label for="textarea">Message<font color = "red">*</font></label>
-              <textarea rows="10" type="textarea" class="form-control" name="MESSAGE" id="MESSAGE" placeholder="Tapez votre message" required></textarea>
+              <label for="textarea"><?php echo $lang['t5'] ?><font color = "red">*</font></label>
+              <textarea rows="10" type="textarea" class="form-control" name="MESSAGE" id="MESSAGE" placeholder="<?php echo $lang['r'] ?>" required></textarea>
             </div>
 
             <div class="form-group">
-              <label for="Links">Link?</label>
+              <label for="Links"><?php echo $lang['t6'] ?>?</label>
               <input type="text" class="form-control" name="Links" id="Links" placeholder="Veuillez mettre votre lien ici...">
             </div>
                 
             <div class="form-group">
-              <button type="submit" id="deposer" class="btn btn-primary">Deposer</button>
+              <button type="submit" id="deposer" class="btn btn-primary"><?php echo $lang['s'] ?></button>
               <p style="color : #a61fff; font-size: 30px; " id="erreur"></p>
             </div>
       
