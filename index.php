@@ -1,4 +1,6 @@
+
 <?php
+require_once("templates/lang.php");
 
 require_once("templates/header.php");
 require_once("templates/sidebar.php");
