@@ -1,3 +1,4 @@
+<?php include('lang.php');?>
 <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/footer.css">
 
 
@@ -11,40 +12,45 @@
     <div class="footer">
         <div class="footer-content" id="navbarNav">
             <div class="footer-section about">
-                <h2><span>A</span>ssociation <span>É</span>tudiants <span>É</span>trangers</h2>
+                <h2><span><?php echo $lang['a'] ?></span><?php echo $lang['a-'] ?> <span><?php echo $lang['e1'] ?></span><?php echo $lang['e1-'] ?> <span> <?php echo $lang['e2']?></span><?php echo $lang['e2-'] ?> </h2>
                     <div class="contact">
                         <span><i class="fa fa-phone"></i> &nbsp; 111-111-111</span>
                         <span><i class="fa fa-envelope"></i> &nbsp; name@gmail.com</span>
                     </div>
                     <div class="socials">
-                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/explore"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a href="https://accounts.snapchat.com/"><i class="fa fa-snapchat"></i></a>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/explore" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://accounts.snapchat.com/" target="_blank"><i class="fa fa-snapchat"></i></a>
                     </div>
             </div>
 
             <div class="footer-section contact-form">
-                <h2>Contactez Nous</h2>
+            
+                <h2><?php echo $lang['cn'] ?></h2>
                 <br>
                 <form id="contacter" action="http://localhost/programmation-web-2---s4---2020-master/assets/.php/server.php" method="post">
                     
-                    <input type="text" class="text-input contact-input" name="email" id="email" placeholder="Email..." >
+                    <input type="text" class="text-input contact-input" name="email" id="email" placeholder="<?php echo $lang['em'] ?>" >
                     
-                    <textarea type="textarea" class="text-input contact-input" name="textarea" id="msg" placeholder="Tapez Votre Message Ici ..." ></textarea>
+                    <textarea type="textarea" class="text-input contact-input" name="textarea" id="msg" placeholder="<?php echo $lang['r'] ?>" ></textarea>
                     
                     <button type="submit" id="envoyer" class="btn2 btn-big" name="envoyer">
                         <i class="fa  fa-envelope "></i>
-                        Envoyer
+                        <?php echo $lang['s'] ?>
                     </button>
                     
                 </form>
             </div>
 
             <div class="footer-section links">
+            
+                <div class="all" id="footer">
+                    <a  href="?lang=en"> <?php echo $lang['en'] ?> </a> ¦ <a  href="?lang=fr"><?php echo $lang['fr'] ?> </a>¦ <a  href="?lang=ar"><?php echo $lang['ar'] ?> </a>
+                </div>
                 <p id="erreur"></p>
-                <h3 class="down"> Retour a la page d'accueil </h3>
-                <a href="http://localhost/programmation-web-2---s4---2020-master/">
+                <h3 class="down"> <?php echo $lang['pa'] ?> </h3>
+                <a href="<?php echo $lang['link1'] ?>">
                     <button id="btnScrollToTop">
                         <i class="fa  fa-arrow-right arrow "></i>
                     </button>
@@ -55,7 +61,7 @@
         </div>
 
         <div class="footer-bottom">
-            événements et commerciales pour les étudiants étrangers
+        <?php echo $lang['fb'] ?>
         </div>
     </div>
 
@@ -63,6 +69,8 @@
 
 
 <script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/js.js"></script>
+<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/img.js"></script>
+
 
 </footer> 
 </body>

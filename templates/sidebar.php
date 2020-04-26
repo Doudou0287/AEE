@@ -1,3 +1,4 @@
+<?php include 'lang.php';?>
 <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/sidebar.css">
 
 <div id="sidebar">
@@ -22,24 +23,24 @@
         </div>
     </li>
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='http://localhost/programmation-web-2---s4---2020-master/'">
-        <span class="glyphicon glyphicon-education">&nbsp;</span>introduction de lassociation.
+    <button  onclick="location.href='<?php echo $lang['link1'] ?>'">
+        <span class="glyphicon glyphicon-education">&nbsp;</span><?php echo $lang['page1'] ?> 
     </button></li>
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='http://localhost/programmation-web-2---s4---2020-master/assets/.php/evenement.php'">
-        <span class="glyphicon glyphicon-calendar">&nbsp;</span> évènement : réservation.
+    <button  onclick="location.href='<?php echo $lang['link2'] ?>'">
+        <span class="glyphicon glyphicon-calendar">&nbsp;</span> <?php echo $lang['page2'] ?> 
     </button></li>
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='http://localhost/programmation-web-2---s4---2020-master/assets/.php/commerce.php'">
-    <span class="glyphicon glyphicon-shopping-cart">&nbsp;</span> e-commerce : vente.
+    <button  onclick="location.href='<?php echo $lang['link3'] ?>'">
+    <span class="glyphicon glyphicon-shopping-cart">&nbsp;</span> <?php echo $lang['page3'] ?> 
     </button></li>
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='http://localhost/programmation-web-2---s4---2020-master/assets/.php/register.php'">
-    <span class="glyphicon glyphicon-comment">&nbsp;</span>Inscription
+    <button  onclick="location.href='<?php echo $lang['link4'] ?>'">
+    <span class="glyphicon glyphicon-comment">&nbsp;</span><?php echo $lang['page4'] ?> 
     </button></li>
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='http://localhost/programmation-web-2---s4---2020-master/assets/.php/formulaire.php'">    
-        <span class="glyphicon glyphicon-envelope">&nbsp;</span>Deposer announces ici.
+    <button  onclick="location.href='<?php echo $lang['link5'] ?>'">    
+        <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php echo $lang['page5'] ?> 
     </button>
     </li>
 </ul>
