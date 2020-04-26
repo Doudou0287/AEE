@@ -1,106 +1,106 @@
-*{
-margin: 0px;
+* {
+    margin: 0px;
     padding: 0px;
+}
+
+body {
+    font-size: 120%;
+}
+
+.header-reg {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: rgb(160, 95, 122);
+    text-align: center;
+    border: 1px solid rgb(222, 176, 194);
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.form-log {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid rgb(222, 176, 194);
+    background: rgb(214, 209, 209);
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
+
+.input-group1 {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group1 label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group1 input {
+    height: 30px;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid rgb(129, 115, 124);
+}
+
+.btn1 {
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(194, 180, 180);
+    background: rgb(129, 43, 64);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    text-align: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.success {
+    color: rgb(5, 78, 50);
+    background: rgba(77, 151, 133, 0.521);
+    border: 1px solid #011f0a;
+}
+
+@media only screen and (max-width:534px) {
+    .input-group input {
+        width: auto;
     }
-
-    body {
-	        font-size: 120%;
-	}
-
-	.header-reg {
-		    width: 30%;
-		        margin: 50px auto 0px;
-			    color: white;
-			        background: rgb(160, 95, 122);
-				    text-align: center;
-				        border: 1px solid rgb(222, 176, 194);
-					    border-bottom: none;
-					        border-radius: 10px 10px 0px 0px;
-						    -webkit-border-radius: 10px 10px 0px 0px;
-						        -moz-border-radius: 10px 10px 0px 0px;
-							    -ms-border-radius: 10px 10px 0px 0px;
-							        -o-border-radius: 10px 10px 0px 0px;
-								    padding: 20px;
-							    }
-
-							    .form-log {
-								        width: 30%;
-									    margin: 0px auto;
-									        padding: 20px;
-										    border: 1px solid rgb(222, 176, 194);
-										        background: rgb(214, 209, 209);
-											    border-radius: 0px 0px 10px 10px;
-											        -webkit-border-radius: 0px 0px 10px 10px;
-												    -moz-border-radius: 0px 0px 10px 10px;
-												        -ms-border-radius: 0px 0px 10px 10px;
-													    -o-border-radius: 0px 0px 10px 10px;
-												    }
-
-												    .input-group1 {
-													        margin: 10px 0px 10px 0px;
-													}
-
-													.input-group1 label {
-														    display: block;
-														        text-align: left;
-															    margin: 3px;
-														    }
-
-														    .input-group1 input {
-															        height: 30px;
-																    width: 70%;
-																        padding: 5px 10px;
-																	    font-size: 16px;
-																	        border-radius: 5px;
-																		    -webkit-border-radius: 5px;
-																		        -moz-border-radius: 5px;
-																			    -ms-border-radius: 5px;
-																			        -o-border-radius: 5px;
-																				    border: 1px solid rgb(129, 115, 124);
-																			    }
-
-																			    .btn1 {
-																				        padding: 10px;
-																					    font-size: 15px;
-																					        color: rgb(194, 180, 180);
-																						    background: rgb(129, 43, 64);
-																						        border: none;
-																							    border-radius: 5px;
-																							        -webkit-border-radius: 5px;
-																								    -moz-border-radius: 5px;
-																								        -ms-border-radius: 5px;
-																									    -o-border-radius: 5px;
-																								    }
-
-																								    .error {
-																									        width: 92%;
-																										    margin: 0px auto;
-																										        padding: 10px;
-																											    border: 1px solid #a94442;
-																											        color: #a94442;
-																												    background: #f2dede;
-																												        text-align: left;
-																													    border-radius: 5px;
-																													        -webkit-border-radius: 5px;
-																														    -moz-border-radius: 5px;
-																														        -ms-border-radius: 5px;
-																															    -o-border-radius: 5px;
-																														    }
-
-																														    .success {
-																															        color: rgb(5, 78, 50);
-																																    background: rgba(77, 151, 133, 0.521);
-																																        border: 1px solid #011f0a;
-																																}
-
-																																@media only screen and (max-width:534px) {
-																																	    .input-group input {
-																																		            width: auto;
-																																			        }
-																																				    form {
-																																					            width: auto;
-																																						        }
-																																							    .header {
-																																								            width: auto;
-																																									        }
-																																									}
+    form {
+        width: auto;
+    }
+    .header {
+        width: auto;
+    }
+}

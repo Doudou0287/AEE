@@ -1,112 +1,145 @@
-html,body {
-	height: 100%;
-        width: 100%; 
-	padding: 0px;
-	margin: 0px;
-	font-family: 'Lora', serif;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lora', serif;
 }
 
 .page {
-	    min-height: 100%;
-	        min-width: 100%;
-	}
+    min-height: 100%;
+    min-width: 100%;
+}
 
-	.page h2 {
-		    text-align: center;
-		        color: rgb(49, 9, 37);
-		}
+.page h2 {
+    text-align: center;
+    color: rgb(49, 9, 37);
+}
 
-		.page h1 {
-			    font-size: 35px;
-			        font-weight: 600;
-				    margin-top: 50px;
-				        margin-left: 230px;
-					    color: rgb(95, 57, 84);
-				    }
+.page h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 230px;
+    color: rgb(95, 57, 84);
+}
 
-				    .page p {
-					        font-size: 19px;
-						    font-weight: 600;
-						        margin-left: 230px;
-						}
+.page p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 230px;
+}
 
-						img {
-							    vertical-align: middle;
-						    }
+#myimage1,
+#myimage2,
+#myimage3,
+#myimage4,
+#myimage5,
+#myimage6 {
+    vertical-align: middle;
+}
 
-						    .containe1 {
-							        position: relative;
-								    box-sizing: border-box;
-							    }
+.img-magnifier-container {
+    position: relative;
+}
 
-							    .mySlides {
-								        display: none;
-								}
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+}
 
-								.cursor {
-									    cursor: pointer;
-								    }
+.img-magnifier-container {
+    position: relative;
+    box-sizing: border-box;
+}
 
-								    .containe1 .prev,
-								    .containe1 .next {
-									        cursor: pointer;
-										    position: absolute;
-										        top: 50%;
-											    width: auto;
-											        height: 8%;
-												    padding: 16px;
-												        margin-top: -50px;
-													    color: rgb(255, 255, 255);
-													        font-weight: bold;
-														    font-size: 20px;
-														        border-radius: 0 3px 3px 0;
-															    user-select: none;
-															        -webkit-user-select: none;
-															}
+.mySlides {
+    display: none;
+}
 
-															.next {
-																    right: 0;
-																        border-radius: 3px 0 0 3px;
-																}
+.cursor {
+    cursor: pointer;
+}
 
-																.prev:hover,
-																.next:hover {
-																	    background-color: rgba(36, 2, 31, 0.26);
-																    }
+.img-magnifier-container .prev,
+.img-magnifier-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: 8%;
+    padding: 16px;
+    margin-top: -50px;
+    background-color: rgba(128, 98, 123, 0.719);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
 
-																    .numbertext {
-																	        color: #410528;
-																		    background-color: hsla(289, 40%, 87%, 0.781);
-																		        font-size: 20px;
-																			    padding: 8px 8px;
-																			        position: relative;
-																				    top: 0;
-																				        float: right;
-																				}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 
-																				.caption-container {
-																					    text-align: center;
-																					        background-color: rgba(39, 27, 33, 0.87);
-																						    padding: 2px 16px;
-																						        color: white;
-																						}
+.prev:hover,
+.next:hover {
+    background-color: #611642ab;
+}
 
-																						.row:after {
-																							    content: "";
-																							        display: table;
-																								    clear: both;
-																							    }
+.numbertext {
+    color: #410528;
+    background-color: hsla(289, 40%, 87%, 0.781);
+    font-size: 20px;
+    padding: 8px 8px;
+    position: relative;
+    top: 0;
+    float: right;
+}
 
-																							    .column {
-																								        float: left;
-																									    width: 16.66%;
-																								    }
+.caption-container {
+    text-align: center;
+    background-color: rgba(39, 27, 33, 0.87);
+    padding: 2px 16px;
+    color: white;
+}
 
-																								    .demo {
-																									        opacity: 0.6;
-																									}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-																									.active,
-																									.demo:hover {
-																										    opacity: 1;
-																									    }
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/*
+@media only screen and (max-width:1100px) {
+    #myimage1,
+    #myimage2,
+    #myimage3,
+    #myimage4,
+    #myimage5,
+    #myimage6 {
+        width: 500;
+    }
+}
