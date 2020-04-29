@@ -1,5 +1,5 @@
 <?php include('lang.php');?>
-<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/footer.css">
+<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/footer.css">
 
 
 <footer>
@@ -29,7 +29,7 @@
             
                 <h2><?php echo $lang['cn'] ?></h2>
                 <br>
-                <form id="contacter" action="http://localhost/programmation-web-2---s4---2020-master/assets/.php/server.php" method="post">
+                <form id="contacter" action="http://localhost/programmation-web-2---s4---2020-master/assets/php/server.php" method="post">
                     
                     <input type="text" class="text-input contact-input" name="email" id="email" placeholder="<?php echo $lang['em'] ?>" >
                     
@@ -68,8 +68,7 @@
 
 
 
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/js.js"></script>
-<script src="http://localhost/programmation-web-2---s4---2020-master/assets/.js/img.js"></script>
+<script src="http://localhost/programmation-web-2---s4---2020-master/assets/js/js.js"></script>
 
 
 </footer> 

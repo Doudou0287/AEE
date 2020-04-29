@@ -1,14 +1,16 @@
 <?php include('server.php');
-
+ include '../../templates/lang.php';
+ $link3 = $lang['link6'];
   if (empty($_SESSION['username'])) {
     echo 'Inscrivez-vous pour continuer';
-    header('location: register.php');
+    header("refresh:2; url=$link3");
+    //header('location: register.php');
   }
 
 
 include '../../templates/sidebar.php';
- include '../../templates/lang.php'?>
 
+?>
 
 <!DOCTYPE html>
 <html>
@@ -16,7 +18,7 @@ include '../../templates/sidebar.php';
   <title>AEE Member</title>
   <?php include '../../templates/header.php';?>
 
-  <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/register.css">
+  <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/register.css">
 	  </head>
 <body>
 <div class="content">
@@ -49,7 +51,7 @@ include '../../templates/sidebar.php';
       <div id="collapse1" class="panel-collapse collapse in">
         <div class="panel-body"><?php echo $lang['mm'] ?> <br>
           <p>
-            <a href="formulaire.php?logout='1'" style="color:#a61fff; background: rgba(34, 3, 18, 0.37); float:right;">Logout</a>
+            <a href="<?php echo $lang['link7'] ?>" style="color:#a61fff; background: rgba(34, 3, 18, 0.37); float:right;"><?php echo $lang['lo'] ?></a>
           </p>
         </div>
       </div>
@@ -145,7 +147,7 @@ include '../../templates/sidebar.php';
       
 </div>
 <?php
-		    include '../../templates/footer.php';
+	include '../../templates/footer.php';
 ?>
 
 </body>

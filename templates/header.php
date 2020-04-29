@@ -28,7 +28,7 @@
 
 
 
-    <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/header.css">
+    <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/header.css">
 
 
     <header>
@@ -77,19 +77,19 @@
 
                                         <ul>
                                         <li value="English" role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="http://localhost/programmation-web-2---s4---2020-master/?lang=en">
+                                            <a role="menuitem" tabindex="-1" href="?lang=en">
                                             <?php echo $lang['en'] ?>
                                             </a>
                                         </li>
 
                                         <li value="Francais" role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="http://localhost/programmation-web-2---s4---2020-master/?lang=fr">
+                                            <a role="menuitem" tabindex="-1" href="?lang=fr">
                                             <?php echo $lang['fr'] ?>
                                             </a>
                                         </li>
 
                                         <li value="arabe" role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="http://localhost/programmation-web-2---s4---2020-master/?lang=ar">
+                                            <a role="menuitem" tabindex="-1" href="?lang=ar">
                                             <?php echo $lang['ar'] ?> 
                                             </a>
                                         </li>

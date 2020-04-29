@@ -60,7 +60,8 @@
     -o-transition: all .5s;
 }
 
-#sidebar ul li button {
+#sidebar ul li button,
+ul li .a {
     background: rgba(83, 13, 81, 0);
     border: none;
     padding: 10px 10px;
@@ -77,7 +78,8 @@
     -o-transition: all .5s;
 }
 
-#sidebar ul li button span {
+#sidebar ul li button span,
+#sidebar ul li .a span {
     color: rgb(187, 141, 201)
 }
 

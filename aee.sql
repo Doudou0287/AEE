@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 26, 2020 at 08:41 PM
+-- Generation Time: Apr 28, 2020 at 11:27 AM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -77,6 +77,44 @@ INSERT INTO `announce1` (`ID`, `NOM`, `PRENOM`, `SUJET`, `MESSAGE`, `DATE_MESSAG
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `chat`
+--
+
+DROP TABLE IF EXISTS `chat`;
+CREATE TABLE IF NOT EXISTS `chat` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `message` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `from1` varchar(225) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `chat`
+--
+
+INSERT INTO `chat` (`id`, `message`, `from1`, `created`) VALUES
+(5, '.hi', '.me', '2020-04-28 08:13:03'),
+(4, '.hi', '.sundus', '2020-04-28 08:08:23'),
+(6, '.how ar you', '.me', '2020-04-28 08:13:10'),
+(7, 'hello guys', 'sawsan', '2020-04-28 08:18:01'),
+(8, 'hi', 'sundus', '2020-04-28 10:25:46'),
+(9, 'are you going to the next event this month?', 'sundus', '2020-04-28 10:38:56'),
+(10, 'what event?', 'marie', '2020-04-28 10:39:31'),
+(11, 'the one i posted about earlier', 'sundus', '2020-04-28 10:41:06'),
+(12, 'go now read it', 'sundus', '2020-04-28 10:42:16'),
+(13, 'and tell me if u r interested', 'sundus', '2020-04-28 10:42:46'),
+(14, 'hio', 'me', '2020-04-28 10:49:09'),
+(15, 'hey', 'sundus', '2020-04-28 10:49:32'),
+(16, 'count me in', 'me', '2020-04-28 10:49:41'),
+(17, ';)', 'sundus', '2020-04-28 10:52:24'),
+(18, 'great', 'sundus', '2020-04-28 10:52:31'),
+(19, 'hi', 'sawsan', '2020-04-28 10:57:02'),
+(20, 'bye', 'fathia', '2020-04-28 10:58:18');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `contact`
 --
 
@@ -87,14 +125,16 @@ CREATE TABLE IF NOT EXISTS `contact` (
   `message` text NOT NULL,
   `dateMessage` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=313 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=315 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `contact`
 --
 
 INSERT INTO `contact` (`id`, `email`, `message`, `dateMessage`) VALUES
-(312, 'blabla@gmail.com', 'hio', '2020-04-24');
+(312, 'blabla@gmail.com', 'hio', '2020-04-24'),
+(313, 'salkebsi@gmail.com', 'hi', '2020-04-27'),
+(314, 'hameedfathia@gmail.com', 'love ya', '2020-04-27');
 
 -- --------------------------------------------------------
 
@@ -109,7 +149,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(225) COLLATE utf8mb4_unicode_ci NOT NULL,
   `password` varchar(225) COLLATE utf8mb4_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `users`
@@ -119,7 +159,12 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
 (1, 'sun', 'sun@gmail.com', 'ebd556e6dfc99dbed29675ce1c6c68e5'),
 (2, 'sundus', 'sundus@gmail.com', '939243514a19d9fed7dccf6ea71c8594'),
 (3, 'H.fatehia', 'hameedfathia@gmail.com', '1c74b04f0d5de9cc190c7431bae57b5d'),
-(4, 'sawsan', 'kebsisawsan@gmail.com', '925544d7f90cd3663531546f080bbed8');
+(4, 'sawsan', 'kebsisawsan@gmail.com', '925544d7f90cd3663531546f080bbed8'),
+(5, 'me', 'me', 'ab86a1e1ef70dff97959067b723c5c24'),
+(6, 'dtallaa', 'dtallaa@gmail.com', 'bcc3e7c0544d828e8512f3dda3a4b126'),
+(7, 'ralahmad', 'ralahmad@hotmail.com', '1e619fdfbfb8a193bea8dc3c27e18f49'),
+(8, 'salkebsi', 'ss', '3691308f2a4c2f6983f2880d32e29c84'),
+(9, 'me', 'me', 'ab86a1e1ef70dff97959067b723c5c24');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

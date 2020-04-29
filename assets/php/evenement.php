@@ -14,7 +14,7 @@ $execute = $pdoStat->execute();
 $commerces = $pdoStat->fetchAll();
 
 ?>
-   <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/form.css">
+   <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/form.css">
 
 
    <section>

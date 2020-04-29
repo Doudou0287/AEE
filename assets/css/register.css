@@ -72,6 +72,22 @@ body {
     -o-border-radius: 5px;
 }
 
+#erreur1 {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 20px;
+    /*border: 1px solid #a94442;*/
+    color: #a94442;
+    /*background: #f2dede;*/
+    text-align: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .error {
     width: 92%;
     margin: 0px auto;

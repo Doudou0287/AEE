@@ -5,6 +5,8 @@
         "page3" => "e-commerce: sale.",
         "page4" => "Registration.",
         "page5" => "Post announcess here.",
+        "page6" => "Join the conversation.",
+
         "Description" => "An event's association that announces and organizes various events for foreign students.
         which helps foreign students to adapt to their situation. Help them find events, businesses, sales...",
         "av"=>"Past events",
@@ -26,10 +28,14 @@
         "e2-" => "ssociation",
         "s" => "Send",
         "link1" => "http://localhost/programmation-web-2---s4---2020-master/?lang=en",
-        "link2" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/evenement.php?lang=en",
-        "link3" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/commerce.php?lang=en",
-        "link4" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/register.php?lang=en",
-        "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/formulaire.php?lang=en",
+        "link2" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/evenement.php?lang=en",
+        "link3" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/commerce.php?lang=en",
+        "link4" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/register.php?lang=en",
+        "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?lang=en",
+        "link6" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/login.php?lang=en",
+        "link7" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?logout='1'?lang=en",
+        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/chat.php?logout='1'?lang=en",
+
         "l1" => "LIST OF COMMERCES ANNOUNCEMENTS",
         "l2" => "LIST OF EVENT ANNOUNCEMENTS",
         "d1" => "Place an event announcement here",
@@ -65,6 +71,13 @@
         "i22" => "Live show",
         "i33" => "The after party",
         "i44" => "Graduation ceremony ",
+        "err1"=> "Username is required",
+        "err2"=> "Password is required",
+        "err3"=> "Email is required",
+        "err4"=> "The two passwords do not match",
+        "err5"=> "Wrong username/password combination",
+        "ln" => "You are now logged in",
+        "lo" => "logout"
 
         
 

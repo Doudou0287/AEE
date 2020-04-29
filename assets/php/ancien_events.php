@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/event.css">
+<link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/event.css">
 
 
 
@@ -71,7 +71,7 @@
     <div class="img-magnifier-container">
         <div class="mySlides">
             <div class="numbertext">1 / 12</div>
-            <img id="myimage1" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i4.jpg"  width="100%" height="540">
+            <img id="myimage1" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg"  width="100%" height="540">
             <script>
                 magnify("myimage1", 2);
             </script>
@@ -128,7 +128,7 @@
         </script>
         <div class="mySlides">
             <div class="numbertext">8 / 12</div>
-            <img id="myimage8" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg"  width="100%" height="540">
+            <img id="myimage8" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i8.jpg"  width="100%" height="540">
         </div>
         <script>
 
@@ -176,7 +176,7 @@
 
         <div class="row">
             <div class="column">
-                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i4.jpg" height="150" width="100%" onclick="currentSlide(1)" alt="<?php echo $lang['i44'] ?>">
+                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg" height="150" width="100%" onclick="currentSlide(1)" alt="<?php echo $lang['i44'] ?>">
             </div>
             <div class="column">
                 <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e2.jpg" height="150" width="100%" onclick="currentSlide(2)" alt="<?php echo $lang['e22'] ?>">

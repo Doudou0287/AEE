@@ -5,6 +5,8 @@
         "page3" => "e-commerce : vente.",
         "page4" => "Inscription.",
         "page5" => "Deposer annonces ici.",
+        "page6" => "Rejoindre la conversation.",
+
         "Description" => "Une Association événementielle qui conçoit et organise divers événements pour les étudiants étrangers .
         qui aide les étudiants étrangers à s'adapter à leur situation. Aidez-les à trouver des evenement, des commerces, des soldes...",
         "av" => "Anciens événements",
@@ -26,10 +28,14 @@
         "e2-" => "trangers",
         "s" => "Envoyer",
         "link1" => "http://localhost/programmation-web-2---s4---2020-master/?lang=fr",
-        "link2" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/evenement.php?lang=fr",
-        "link3" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/commerce.php?lang=fr",
-        "link4" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/register.php?lang=fr",
-        "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/.php/formulaire.php?lang=fr",
+        "link2" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/evenement.php?lang=fr",
+        "link3" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/commerce.php?lang=fr",
+        "link4" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/register.php?lang=fr",
+        "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?lang=fr",
+        "link6" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/login.php?lang=fr",
+        "link7" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?logout='1'?lang=fr",
+        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/chat.php?logout='1'?lang=en",
+
         "l1" => "LISTE DES ANNONCES DES COMMERCES",
         "l2"=> "LISTE DES ANNONCES DES ÉVÉNEMENT",
         "d1" => "Déposer une annonce d'événement ici",
@@ -65,6 +71,13 @@
         "i22" => "Spectacle en direct",
         "i33" => "Fete",
         "i44" => "Cérémonie de remise des diplômes",
+        "err1"=> "Nom d'utilisateur est requis",
+        "err2"=> "Mot de passe est requis",
+        "err3"=> "E-mail est requis",
+        "err4"=> "les deux mots de passe ne correspondent pas",
+        "err5"=> "Mauvaise combinaison de Nom d'utilisateur et Mot de passe",
+        "ln" => "Vous êtes maintenant connecté",
+        "lo" => "déconnexion"
 
 
     );

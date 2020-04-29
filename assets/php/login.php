@@ -4,7 +4,7 @@ include '../../templates/header.php';
     include '../../templates/sidebar.php';
 ?>
 
-    <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/.css/register.css">
+    <link rel="stylesheet" href="http://localhost/programmation-web-2---s4---2020-master/assets/css/register.css">
     
     <div class="header-reg">
             <h2><?php echo $lang['i3'] ?></h2>
@@ -26,7 +26,7 @@ include '../../templates/header.php';
             <button type="submit" name="login" class="btn1"><?php echo $lang['i3'] ?></button>
         </div>
         <p>
-        <?php echo $lang['i4'] ?> <a href="register.php"> <?php echo $lang['i1'] ?> </a>
+        <?php echo $lang['i4'] ?> <a href="<?php echo $lang['link4'] ?>"> <?php echo $lang['i1'] ?> </a>
         </p>
     </form>
 
