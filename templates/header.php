@@ -1,6 +1,9 @@
 <?php include('lang.php');?>
 <head>
     <title><?php echo $lang['a'] ?> <?php echo $lang['e1'] ?> <?php echo $lang['e2'] ?></title>
+    <link rel="icon" type="image/png" href="http://localhost/programmation-web-2---s4---2020-master/assets/img/logo.jpg" />
+
+
 
     <meta charset="UTF-8">
     <meta name="description" content="Association Étudiant-es Étranger-es">
@@ -35,7 +38,7 @@
         <div class="nav-bar">
 
             <nav class="navbar navbar-expand-lg navbar-light ">
-
+                
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i> 
@@ -43,6 +46,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav item">
+                        
                             <a href="<?php echo $lang['link1'] ?>">
                                 <h2 class="logotext" alt="logotext"><?php echo $lang['a'] ?> <?php echo $lang['e1'] ?> <?php echo $lang['e2'] ?></h2>
                             </a>
@@ -54,9 +58,9 @@
                         
 
                         <li class="nav item">
-                            <div class="search-box">
-                                <input class="search-txt" type="text" name="" placeholder="<?php echo $lang['r'] ?>">
-                                <a class="search-btn" href="#">
+                            <div style=" margin-left: 150px;" class="search-box">
+                                <!-- <input class="search-txt" type="text" name="q" placeholder="<?php echo $lang['r'] ?>"> -->
+                                <a class="search-btn" type="submit" href="http://localhost/programmation-web-2---s4---2020-master/assets/php/rech.php">
                                     <i class="fa fa-search"></i>
                                 </a>
                             </div>

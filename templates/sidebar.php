@@ -10,7 +10,7 @@
 </div>
 
 <ul>
-    <li>
+    <!-- <li>
         <div class="container-fluid tmargin">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search..." />
@@ -21,11 +21,14 @@
                 </span>
             </div>
         </div>
-    </li>
+    </li> -->
+
+    
     <li style="padding: 15px 30px;">
-    <button  onclick="location.href='<?php echo $lang['link1'] ?>'">
-        <span class="glyphicon glyphicon-education">&nbsp;</span><?php echo $lang['page1'] ?> 
+    <button  onclick="location.href='<?php echo $lang['link10'] ?>'">
+        <span class="glyphicon glyphicon-search">&nbsp;</span><?php echo $lang['page'] ?> 
     </button></li>
+    
     <li style="padding: 15px 30px;">
     <button  onclick="location.href='<?php echo $lang['link2'] ?>'">
         <span class="glyphicon glyphicon-calendar">&nbsp;</span> <?php echo $lang['page2'] ?> 
@@ -43,11 +46,14 @@
         <span class="glyphicon glyphicon-envelope">&nbsp;</span><?php echo $lang['page5'] ?> 
     </button>
     </li>
-    <li style="padding: 15px 30px;">
-   <!-- href="https://www.facebook.com/" target="_blank"-->
+    <li style="padding: 15px 40px 10px 40px; ">
     <a class="a"  target='_blank' href='http://localhost/programmation-web-2---s4---2020-master/assets/php/chat.php' >   
         <span class="glyphicon glyphicon-comment">&nbsp;</span><?php echo $lang['page6'] ?> 
     </a>
     </li>
+    <li style="padding: 15px 30px;">
+    <button  onclick="location.href='<?php echo $lang['link1'] ?>'">
+        <span class="glyphicon glyphicon-education">&nbsp;</span><?php echo $lang['page1'] ?> 
+    </button></li>
 </ul>
 </div>

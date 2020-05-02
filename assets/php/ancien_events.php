@@ -71,7 +71,7 @@
     <div class="img-magnifier-container">
         <div class="mySlides">
             <div class="numbertext">1 / 12</div>
-            <img id="myimage1" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg"  width="100%" height="540">
+            <img id="myimage1" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i7.jpg"  width="100%" height="540">
             <script>
                 magnify("myimage1", 2);
             </script>
@@ -103,7 +103,7 @@
         </script>
         <div class="mySlides">
             <div class="numbertext">5 / 12</div>
-            <img id="myimage5" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i7.jpg" width="100%" height="540">
+            <img id="myimage5" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg" width="100%" height="540">
         </div>
         <script>
 
@@ -176,7 +176,7 @@
 
         <div class="row">
             <div class="column">
-                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg" height="150" width="100%" onclick="currentSlide(1)" alt="<?php echo $lang['i44'] ?>">
+                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i7.jpg" height="150" width="100%" onclick="currentSlide(1)" alt="<?php echo $lang['i44'] ?>">
             </div>
             <div class="column">
                 <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e2.jpg" height="150" width="100%" onclick="currentSlide(2)" alt="<?php echo $lang['e22'] ?>">
@@ -188,7 +188,7 @@
                 <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e4.jpg" height="150" width="100%" onclick="currentSlide(4)" alt="<?php echo $lang['e44'] ?>">
             </div>
             <div class="column">
-                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/i7.jpg" height="150" width="100%" onclick="currentSlide(5)" alt="<?php echo $lang['i77'] ?>">
+                <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e8.jpg" height="150" width="100%" onclick="currentSlide(5)" alt="<?php echo $lang['i77'] ?>">
             </div>
             <div class="column">
                 <img class="demo cursor" src="http://localhost/programmation-web-2---s4---2020-master/assets/img/e6.jpg" height="150" width="100%" onclick="currentSlide(6)" alt="<?php echo $lang['e66'] ?>">

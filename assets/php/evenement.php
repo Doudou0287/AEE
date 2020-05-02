@@ -18,7 +18,7 @@ $commerces = $pdoStat->fetchAll();
 
 
    <section>
-	<h3 class="try"><?php echo $lang['l1'] ?></h3>
+	<h3 class="try"><?php echo $lang['l2'] ?></h3>
     <table>
         
         <thead>
@@ -41,7 +41,7 @@ $commerces = $pdoStat->fetchAll();
                 <td><?= $announce['PRENOM']?></td>
                 <td><?= $announce['SUJET']?></td>
                 <td><?= $announce['MESSAGE']?></td>
-                <td class="text"><a href="<?= $announce['LINKS']?>"><?php echo $lang['rm'] ?></a></td>
+                <td class="text"><a href="<?= $announce['LINKS']?>"  target="_balnk"><?php echo $lang['rm'] ?></a></td>
             </tr>
 
         </tbody>

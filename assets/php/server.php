@@ -32,7 +32,7 @@ if (isset($_POST['envoyer'])){
 
 	//not very usefull since it's already been treate by js but to double check it any way
 	if (empty($msg)){
-	array_push($errors, " $err");
+		array_push($errors, "$err1 ");
 	}
 
 	if (empty($email)){
@@ -136,7 +136,7 @@ if (isset($_POST['login'])){
 if(isset($_GET['logout'])) {
 	session_destroy();
 	unset($_SESSION['username']);
-	header('location:login.php');}
+	header(' url=$link6');}
 
 ?>
 

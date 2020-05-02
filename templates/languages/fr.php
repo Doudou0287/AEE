@@ -5,8 +5,8 @@
         "page3" => "e-commerce : vente.",
         "page4" => "Inscription.",
         "page5" => "Deposer annonces ici.",
-        "page6" => "Rejoindre la conversation.",
-
+        "page6" => "Rejoindre la conversation ici. . .",
+        "page" => "Cherchez des annonces ici.",
         "Description" => "Une Association événementielle qui conçoit et organise divers événements pour les étudiants étrangers .
         qui aide les étudiants étrangers à s'adapter à leur situation. Aidez-les à trouver des evenement, des commerces, des soldes...",
         "av" => "Anciens événements",
@@ -34,7 +34,7 @@
         "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?lang=fr",
         "link6" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/login.php?lang=fr",
         "link7" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?logout='1'?lang=fr",
-        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/chat.php?logout='1'?lang=en",
+        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/rech.php?lang=fr",
 
         "l1" => "LISTE DES ANNONCES DES COMMERCES",
         "l2"=> "LISTE DES ANNONCES DES ÉVÉNEMENT",

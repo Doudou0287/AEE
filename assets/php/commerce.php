@@ -40,7 +40,7 @@ $commerces = $pdoStat->fetchAll();
                 <td><?= $announce['PRENOM']?></td>
                 <td><?= $announce['SUJET']?></td>
                 <td><?= $announce['MESSAGE']?></td>
-                <td class="text"><a href="<?= $announce['LINKS']?>"><?php echo $lang['rm'] ?></a></td>
+                <td class="text"><a href="<?= $announce['LINKS']?>" target="_balnk" ><?php echo $lang['rm'] ?></a></td>
             </tr>
 
         </tbody>

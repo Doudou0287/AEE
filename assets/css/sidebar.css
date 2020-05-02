@@ -43,9 +43,10 @@
 
 #sidebar ul li {
     display: block;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px; */
+    padding: 15px 30px;
     height: auto;
+    width: auto;
     font-family: sans-serif;
     color: rgba(110, 48, 67, 0.541);
     list-style: none;
@@ -58,10 +59,11 @@
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+    margin-right: 10px;
 }
 
 #sidebar ul li button,
-ul li .a {
+#sidebar ul li .a {
     background: rgba(83, 13, 81, 0);
     border: none;
     padding: 10px 10px;
@@ -69,13 +71,8 @@ ul li .a {
     outline: none !important;
 }
 
-#sidebar ul li {
-    margin-right: 10px;
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
+ul li .a {
+    margin-top: 10px;
 }
 
 #sidebar ul li button span,

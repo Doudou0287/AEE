@@ -9,7 +9,7 @@ include '../../templates/header.php';
     <div class="header-reg">
             <h2><?php echo $lang['i3'] ?></h2>
     </div>
-    <form method="post" action="login.php" class="form-log">
+    <form method="post" action="<?php echo $lang['link6'] ?>" class="form-log">
         
     <?php include('errors.php');?>
         <div class="input-group1">

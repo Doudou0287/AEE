@@ -6,7 +6,7 @@
         "page4" => "Registration.",
         "page5" => "Post announcess here.",
         "page6" => "Join the conversation.",
-
+        "page" => "Search for announces here. . .",
         "Description" => "An event's association that announces and organizes various events for foreign students.
         which helps foreign students to adapt to their situation. Help them find events, businesses, sales...",
         "av"=>"Past events",
@@ -34,7 +34,7 @@
         "link5" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?lang=en",
         "link6" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/login.php?lang=en",
         "link7" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/formulaire.php?logout='1'?lang=en",
-        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/chat.php?logout='1'?lang=en",
+        "link10" => "http://localhost/programmation-web-2---s4---2020-master/assets/php/rech.php?lang=en",
 
         "l1" => "LIST OF COMMERCES ANNOUNCEMENTS",
         "l2" => "LIST OF EVENT ANNOUNCEMENTS",
