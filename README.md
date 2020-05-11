@@ -16,9 +16,8 @@
 
 #### Side-bar  < contiens les autre pages  > :
 	
-> barre de recherche << chercher des évènements/ventes ...>>
 
-> 1e page : page d'acueil.
+> 1e page : barre de recherche << chercher des évènements/ventes ...>>.
 
 > 2e page : Le site de présentation d’un évènement : réservation.
 
@@ -29,16 +28,18 @@
 > 5e page "privée pour les utilisateurs inscrits" : formulaire (déposer une annonce/événements.).
 
 > 6e page : Une chat pour que les étudiants interagissent les uns avec les autres.
+
+> 7e page : page d'acueil << utile lorsque on est dans les autre pages >>
 	
 
 #### Footer : 
 > réseaux sociaux 
 
-
 > contactez nous "petit formulaire pour les feedback".
 
 > changer/choisir la langue voulu.
-> un bouton de retour a la tête de lq page d'accueil.
+
+> un boutton de retour a la tête de la page d'accueil.
 
 
 
