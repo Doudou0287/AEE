@@ -86,18 +86,18 @@ btnTop.addEventListener("click", function() {
 
 });
 
-var i = 0,
-    text;
-text = "Bienvenue sur notre site !"
+// var i = 0,
+//     text;
+// text = "Bienvenue sur notre site !"
 
-function typing() {
-    if (i < text.length) {
-        document.getElementById("titlebine").innerHTML += text.charAt(i);
-        i++;
-    }
-    setTimeout(typing, 100);
-}
-typing();
+// function typing() {
+//     if (i < text.length) {
+//         document.getElementById("titlebine").innerHTML += text.charAt(i);
+//         i++;
+//     }
+//     setTimeout(typing, 100);
+// }
+// typing();
 
 function toggleSidebar() {
     document.getElementById("sidebar").classList.toggle('active');

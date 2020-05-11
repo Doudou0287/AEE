@@ -46,7 +46,7 @@
             <div class="footer-section links">
             
                 <div class="all" id="footer">
-                    <a  href="?lang=en"> <?php echo $lang['en'] ?> </a> ¦ <a  href="?lang=fr"><?php echo $lang['fr'] ?> </a>¦ <a  href="?lang=ar"><?php echo $lang['ar'] ?> </a>
+                    <a  href="?lang=en"> English </a> ¦ <a  href="?lang=fr">Frensh </a>¦ <a  href="?lang=ar">Arabic </a>
                 </div>
                 <p id="erreur"></p>
                 <h3 class="down"> <?php echo $lang['pa'] ?> </h3>

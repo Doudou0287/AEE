@@ -1,5 +1,6 @@
 <?php 
     $lang = array(
+        "titlebine" => "Bienvenue sur notre site !",
         "page1" => "Page d'accueil.",
         "page2" => "évènement : réservation.",
         "page3" => "e-commerce : vente.",
@@ -11,9 +12,6 @@
         qui aide les étudiants étrangers à s'adapter à leur situation. Aidez-les à trouver des evenement, des commerces, des soldes...",
         "av" => "Anciens événements",
         "aee" => 'AEE "Association étudiants étrangers"',
-        "en" => "Anglais",
-        "fr" => "Français",
-        "ar" => "Arabe",
         "rm" => "savoir plus",
         "fb" => "événements et commerciales pour les étudiants étrangers",
         "pa" => "Retour a la page d'accueil ",

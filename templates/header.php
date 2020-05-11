@@ -66,10 +66,22 @@
                             </div>
 
                         </li>
+                        <script>
+                    
+                            var i = 0,
+                                text;
+                            text = "<?php echo $lang['titlebine'] ?>"
 
-                        
+                            function typing() {
+                                if (i < text.length) {
+                                    document.getElementById("titlebine").innerHTML += text.charAt(i);
+                                    i++;
+                                }
+                                setTimeout(typing, 100);
+                            }
+                        </script>
                         <li class="nav item">
-                            <h1 id="titlebine" class="text-center"></h1>
+                            <h1 id="titlebine" class="text-center"><script>  typing(); </script></h1>
                         </li>
 
                         <li class="nav item">
@@ -82,19 +94,19 @@
                                         <ul>
                                         <li value="English" role="presentation">
                                             <a role="menuitem" tabindex="-1" href="?lang=en">
-                                            <?php echo $lang['en'] ?>
+                                                English
                                             </a>
                                         </li>
 
                                         <li value="Francais" role="presentation">
                                             <a role="menuitem" tabindex="-1" href="?lang=fr">
-                                            <?php echo $lang['fr'] ?>
+                                                Frensh
                                             </a>
                                         </li>
 
                                         <li value="arabe" role="presentation">
                                             <a role="menuitem" tabindex="-1" href="?lang=ar">
-                                            <?php echo $lang['ar'] ?> 
+                                                Arabic 
                                             </a>
                                         </li>
                                         </ul>

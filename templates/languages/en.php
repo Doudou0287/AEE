@@ -1,6 +1,8 @@
 <?php 
     $lang = array(
+        "titlebine" => "Welcome to our site !",
         "page1" => "Home Page.",
+    
         "page2" => "event: reservation.",
         "page3" => "e-commerce: sale.",
         "page4" => "Registration.",
@@ -11,9 +13,6 @@
         which helps foreign students to adapt to their situation. Help them find events, businesses, sales...",
         "av"=>"Past events",
         "aee"=> 'FSA "Foreign Students Association "',
-        "en" => "English",
-        "fr" => "Frensh",
-        "ar" => "Arabic",
         "rm" => "read more",
         "fb" => "events and commercials for foreign students",
         "pa" => "Back to home page",
